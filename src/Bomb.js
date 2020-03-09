@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 export default class Bomb extends Component {
+    //solution has React.Component not just Component
     constructor(props){
         super()
         this.state = {
@@ -16,3 +17,12 @@ export default class Bomb extends Component {
         }
     }
 }
+
+// solution has below for render
+// render() {
+//     const message = this.state.secondsLeft === 0 ? 'Boom!' : `${this.state.secondsLeft} seconds left before I go boom!`;
+
+//     return (
+//       <div>{message}</div>
+//     )
+//   }
