@@ -1,7 +1,7 @@
 // your Bomb code here!
 import React, {Component} from 'react';
 
-class Bomb extends Component {
+class Bomb extends React.Component {
     constructor(props){
         super()
         this.state = {
